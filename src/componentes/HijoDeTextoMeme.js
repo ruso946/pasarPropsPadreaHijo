@@ -2,7 +2,10 @@
 let HijoDeTextoMeme = (props)=>{
         
     return (
-    <p className="justify-text-start m-3">lo que se escribe en el input: <br></br>{props.textoQueLePaso}</p>
+        <div>
+            <p className="border border-3 justify-text-start m-3">lo que se escribe en el input aparece acá abajo (usando props): </p>
+            <p className="border border-3 border-dark justify-text-start m-3">{props.textoQueLePaso}</p>    
+        </div>
     );
 }
 
